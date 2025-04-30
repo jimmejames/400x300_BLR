@@ -1,3 +1,13 @@
+Carrying on from @magicus premise- I don't want to flash my devices with custom firmware if the native firmware works. Reasons being as possible bricking of the device during flashing and an **unfounded assumption** the manufacturer optimally handles battery life.
+
+I simply copy the slim_scaled.py to my local and run the file with an image argument.
+```
+python slim_scaled.py upload_image.png
+```
+
+Substantial testing has not been done.  All usual disclaimers (no warranties, etc) about bricking your device apply).  This is largley a porting of part of ATC1441's solution from Javascript to Python.
+
+
 # BLE ePaper for Home Assistant
 
 This is a custom integration for Home Assistant that supports BLE (Bluetooth Low Energy) ePaper
